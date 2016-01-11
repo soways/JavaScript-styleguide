@@ -6,7 +6,7 @@
  */
 
 //无var关键字声明变量example
-function variables(){ 
+function variables(){
     aNumber="123";
 }
 variables();//执行一次variables
