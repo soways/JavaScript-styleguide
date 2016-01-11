@@ -7,14 +7,14 @@
 
 //无var关键字声明变量example
 function variables(){
-    a="123";
+    aNumber="123";
 }
 variables();//执行一次variables
-console.log(a);//可以看到"123"
+console.log(aNumber);//可以看到"123"
 
 //加var关键字声明变量example
 function variablesV(){
-    var b="123";
+    var bNumber="123";
 }
 variablesV();//执行一次variablesV
-console.log(b);//出错,b is not defined,因为 variablesV 中声明的变量作用域只是 variablesV 函数.
+console.log(bNumber);//出错,bNumber is not defined,因为 variablesV 中声明的变量作用域只是 variablesV 函数.
